@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import connectDB from './database/conn.mjs';
 import Country from './models/country.mjs';
+import countryRoutes from './routes/countryRoutes.mjs';
 import dotenv from 'dotenv';
 
 
